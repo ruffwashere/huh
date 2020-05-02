@@ -18,11 +18,13 @@
         <img id="loadingIMG" class="loadingIMG" src="./imgs/clock.png">
       </div>
       <div id="mainWebPage">
-          <h1 class="nameLogo">Ruff</h1>
+          <h1 id="nameL"class="nameLogo">Ruff</h1>
           <h3 id="developer">Developer</h3>
-          <div id="modalBox" class="modalBox hide">
+          <!-- <div id="modalBox" class="modalBox hide">
             <h1>hi</h1>
-          </div>
+          </div> -->
+          <button id="lightButton" onclick="mode.lightMode()">Light</button>
+          <button id="darkButton" onclick="mode.darkMode()" class="hide">dark</button>
       </div>
     <script src="index.js"></script>
   </body>
